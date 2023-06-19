@@ -34,7 +34,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.tx_box1 = new System.Windows.Forms.TextBox();
             this.tx_box2 = new System.Windows.Forms.TextBox();
-            this.cb_serviços = new System.Windows.Forms.ComboBox();
+            this.cb_servicos = new System.Windows.Forms.ComboBox();
             this.cb_pagamento = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -91,18 +91,18 @@
             this.tx_box2.Size = new System.Drawing.Size(100, 20);
             this.tx_box2.TabIndex = 5;
             // 
-            // cb_serviços
+            // cb_servicos
             // 
-            this.cb_serviços.FormattingEnabled = true;
-            this.cb_serviços.Items.AddRange(new object[] {
+            this.cb_servicos.FormattingEnabled = true;
+            this.cb_servicos.Items.AddRange(new object[] {
             "formatação\t",
             "limpeza",
             "troca de peça"});
-            this.cb_serviços.Location = new System.Drawing.Point(116, 97);
-            this.cb_serviços.Name = "cb_serviços";
-            this.cb_serviços.Size = new System.Drawing.Size(121, 21);
-            this.cb_serviços.TabIndex = 6;
-            this.cb_serviços.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.cb_servicos.Location = new System.Drawing.Point(116, 97);
+            this.cb_servicos.Name = "cb_servicos";
+            this.cb_servicos.Size = new System.Drawing.Size(121, 21);
+            this.cb_servicos.TabIndex = 6;
+            this.cb_servicos.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // cb_pagamento
             // 
@@ -154,7 +154,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cb_pagamento);
-            this.Controls.Add(this.cb_serviços);
+            this.Controls.Add(this.cb_servicos);
             this.Controls.Add(this.tx_box2);
             this.Controls.Add(this.tx_box1);
             this.Controls.Add(this.label4);
@@ -178,7 +178,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox tx_box1;
         private System.Windows.Forms.TextBox tx_box2;
-        private System.Windows.Forms.ComboBox cb_serviços;
+        private System.Windows.Forms.ComboBox cb_servicos;
         private System.Windows.Forms.ComboBox cb_pagamento;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;

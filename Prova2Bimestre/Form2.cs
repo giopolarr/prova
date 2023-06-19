@@ -34,25 +34,41 @@ namespace Prova2Bimestre
                 double dinheiro = 0.2;
                 double pix = 0.1;
                 double cartao = 0;
+                double resultado1 = dinheiro - (dinheiro * 100);
+                double resultado2 = 0.10 - (100 * 0.10);
 
 
-                if (cb_serviços.Text == "formatação")
+                if (cb_servicos.Text == "formatação" && cb_pagamento.Text == "dinheiro")
                 {
-                  double resultado1 = dinheiro - (100 * dinheiro);
-                    lb_resultado.Text = Convert.ToString(resultado1);
+                  resultado1 = dinheiro - (dinheiro * 100);
+                    
                 }
-                if ( formatacao == pix)
+                else if (cb_servicos.Text == "formatação" && cb_pagamento.Text == "pix")
                 {
-                    pix = 0.10 - (100 * 0.10);
-                }
-                else if (formatacao == cartao)
-                {
-                   
+                     resultado2 = 0.10 - (100 * 0.10);
                 }
 
+                lb_resultado.Text = (Convert.ToString(resultado1));
+                
+
+                if(cb_servicos.Text == "limpeza" && cb_pagamento.Text == "dinheiro")
+                {
+                    double resultado3 = dinheiro = (dinheiro * 50);
+                    lb_resultado.Text = (Convert.ToString(resultado3));
+                }
+                else if(cb_servicos.Text == "limpeza" && cb_pagamento.Text == "pix")
+                {
+                    double resultado4 = pix = (pix * 50);
+                    lb_resultado.Text = (Convert.ToString(resultado4));
+
+                }
+
+                if(cb_servicos.Text == "troca de peças" && cb_pagamento.Text == "dinheiro")
+                {
+                    double resultado5 = (dinheiro / 200) - dinheiro;
+                }
 
 
-                lb_resultado.Text = "sdfas";
             }
             catch 
             
@@ -74,7 +90,7 @@ namespace Prova2Bimestre
             tx_box1.Clear();
             tx_box2.Clear();
             cb_pagamento.Items.Clear();
-            cb_serviços.Items.Clear();
+            cb_servicos.Items.Clear();
         }
     }
 }
