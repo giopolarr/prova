@@ -1,0 +1,12 @@
+C:\Users\2022102020058\source\repos\Prova2Bimestre\Prova2Bimestre\bin\Debug\Prova2Bimestre.exe.config
+C:\Users\2022102020058\source\repos\Prova2Bimestre\Prova2Bimestre\bin\Debug\Prova2Bimestre.exe
+C:\Users\2022102020058\source\repos\Prova2Bimestre\Prova2Bimestre\bin\Debug\Prova2Bimestre.pdb
+C:\Users\2022102020058\source\repos\Prova2Bimestre\Prova2Bimestre\obj\Debug\Prova2Bimestre.csproj.AssemblyReference.cache
+C:\Users\2022102020058\source\repos\Prova2Bimestre\Prova2Bimestre\obj\Debug\Prova2Bimestre.csproj.SuggestedBindingRedirects.cache
+C:\Users\2022102020058\source\repos\Prova2Bimestre\Prova2Bimestre\obj\Debug\Prova2Bimestre.Form1.resources
+C:\Users\2022102020058\source\repos\Prova2Bimestre\Prova2Bimestre\obj\Debug\Prova2Bimestre.Properties.Resources.resources
+C:\Users\2022102020058\source\repos\Prova2Bimestre\Prova2Bimestre\obj\Debug\Prova2Bimestre.csproj.GenerateResource.cache
+C:\Users\2022102020058\source\repos\Prova2Bimestre\Prova2Bimestre\obj\Debug\Prova2Bimestre.csproj.CoreCompileInputs.cache
+C:\Users\2022102020058\source\repos\Prova2Bimestre\Prova2Bimestre\obj\Debug\Prova2Bimestre.exe
+C:\Users\2022102020058\source\repos\Prova2Bimestre\Prova2Bimestre\obj\Debug\Prova2Bimestre.pdb
+C:\Users\2022102020058\source\repos\Prova2Bimestre\Prova2Bimestre\obj\Debug\Prova2Bimestre.Form2.resources
