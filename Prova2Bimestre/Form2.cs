@@ -28,24 +28,25 @@ namespace Prova2Bimestre
         {
             try
             {
+                
                 int formatacao = 100;
                 int limpeza = 50;
                 int troca_peca = 200;
-                double dinheiro = 0.2;
+                double dinheiro = 0.20;
                 double pix = 0.1;
                 double cartao = 0;
-                double resultado1 = dinheiro - (dinheiro * 100);
+                double resultado1 = 100 - (dinheiro / 100);
                 double resultado2 = 0.10 - (100 * 0.10);
 
 
                 if (cb_servicos.Text == "formatação" && cb_pagamento.Text == "dinheiro")
                 {
-                  resultado1 = dinheiro - (dinheiro * 100);
+                  resultado1 = 100 - (dinheiro / 100);
                     
                 }
                 else if (cb_servicos.Text == "formatação" && cb_pagamento.Text == "pix")
                 {
-                     resultado2 = 0.10 - (100 * 0.10);
+                     resultado2 = 100 - (pix / 100);
                 }
 
                 lb_resultado.Text = (Convert.ToString(resultado1));
@@ -63,11 +64,14 @@ namespace Prova2Bimestre
 
                 }
 
-                if(cb_servicos.Text == "troca de peças" && cb_pagamento.Text == "dinheiro")
+                if (cb_servicos.Text == "troca de peças" && cb_pagamento.Text == "dinheiro")
                 {
                     double resultado5 = (dinheiro / 200) - dinheiro;
                 }
+                else if (cb_servicos.Text == "troca de peças" && cb_pagamento.Text == "pix") ;
+                {
 
+                }
 
             }
             catch 
